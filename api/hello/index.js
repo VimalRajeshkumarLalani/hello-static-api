@@ -6,6 +6,6 @@ module.exports = async function (context, req) {
             'Access-Control-Allow-Headers': 'Content-Type, Authorization'
         },
         // status: 200, /* Defaults to 200 */
-        body: "Hello World from Azure Static Web Apps API!"
+        body: { "data" : "Hello World from Azure Static Web Apps API!" }
     };
 };
